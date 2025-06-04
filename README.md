@@ -8,6 +8,7 @@
 - Ant Design
 - React Router
 - Axios
+- Json-server
 
 ## Требования
 
@@ -34,9 +35,9 @@ yarn install
 ## Запуск
 
 ```bash
-npm start
+npm run dev
 # или
-yarn start
+yarn dev
 ```
 
 Приложение будет доступно по адресу [http://localhost:3002](http://localhost:3002)
