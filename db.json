@@ -1,0 +1,218 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Hello World",
+      "author": "AI"
+    },
+    {
+      "id": "2",
+      "title": "Second Post",
+      "author": "User"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "Nice post!",
+      "postId": 1
+    },
+    {
+      "id": "2",
+      "body": "Thanks!",
+      "postId": 1
+    }
+  ],
+  "ack": [
+    {
+      "id": "1",
+      "contractType": "Межоператорский",
+      "connectionType": "L2",
+      "operatorId": 1,
+      "clientId": 1,
+      "contractNumber": "12345",
+      "status": "Активен",
+      "project": "Проект 1",
+      "pointA": {
+        "address": "Адрес А",
+        "ip": "192.168.1.1",
+        "port": "1000"
+      },
+      "pointB": {
+        "address": "Адрес Б",
+        "ip": "192.168.1.2",
+        "port": "1001"
+      },
+      "speed": "1000",
+      "vlanService": "10",
+      "vlanClient": "20",
+      "installDate": "2024-06-01",
+      "activationDate": "2024-06-02",
+      "deactivationDate": ""
+    },
+    {
+      "id": "2",
+      "contractType": "Прямой",
+      "connectionType": "L3",
+      "operatorId": 2,
+      "clientId": 2,
+      "contractNumber": "67890",
+      "status": "Процесс инсталляции",
+      "project": "Проект 2",
+      "pointA": {
+        "address": "Адрес C",
+        "ip": "10.0.0.1",
+        "port": "2000"
+      },
+      "pointB": {
+        "address": "Адрес D",
+        "ip": "10.0.0.2",
+        "port": "2001"
+      },
+      "speed": "500",
+      "vlanService": "15",
+      "vlanClient": "25",
+      "installDate": "2024-07-01",
+      "activationDate": "",
+      "deactivationDate": ""
+    },
+    {
+      "id": "3",
+      "contractType": "Межоператорский",
+      "connectionType": "L3",
+      "operatorId": 1,
+      "clientId": 3,
+      "contractNumber": "54321",
+      "status": "Приостановлен",
+      "project": "Проект 3",
+      "pointA": {
+        "address": "Адрес E",
+        "ip": "172.16.0.1",
+        "port": "3000"
+      },
+      "pointB": {
+        "address": "Адрес F",
+        "ip": "172.16.0.2",
+        "port": "3001"
+      },
+      "speed": "2000",
+      "vlanService": "20",
+      "vlanClient": "30",
+      "installDate": "2024-05-15",
+      "activationDate": "2024-05-20",
+      "deactivationDate": "2024-06-01"
+    },
+    {
+      "id": "8c92",
+      "contractType": "Межоператорский",
+      "connectionType": "L2",
+      "operatorId": 1,
+      "clientId": 2,
+      "contractNumber": "231",
+      "status": "Процесс инсталляции",
+      "project": "1",
+      "pointA": {
+        "address": "фывфы",
+        "ip": "1312",
+        "port": "21313"
+      },
+      "pointB": {
+        "address": "312123",
+        "ip": "3123",
+        "port": "3123"
+      },
+      "speed": "3123",
+      "vlanService": "23123",
+      "vlanClient": "3123",
+      "installDate": "3123",
+      "activationDate": "312",
+      "deactivationDate": "312"
+    },
+    {
+      "id": "d882",
+      "contractType": "Прямой",
+      "operatorId": 1,
+      "clientId": 2,
+      "contractNumber": "231",
+      "status": "Активен",
+      "project": "1",
+      "speed": "3123",
+      "vlanService": "1",
+      "vlanClient": "1",
+      "installDate": "1",
+      "activationDate": "1",
+      "deactivationDate": "1",
+      "vrfName": "1",
+      "vrfTarget": "1",
+      "switchIp": "1",
+      "port": "1",
+      "ipNetwork": "1",
+      "ipGateway": "1",
+      "ipClient": "1",
+      "ipRoute": "1"
+    },
+    {
+      "id": "ca84",
+      "contractType": "Межоператорский",
+      "operatorId": 1,
+      "clientId": 2,
+      "contractNumber": "231",
+      "status": "Активен",
+      "project": "1",
+      "speed": "3123",
+      "vlanService": "1",
+      "vlanClient": "1",
+      "installDate": "1",
+      "activationDate": "1",
+      "deactivationDate": "1",
+      "vrfName": "1",
+      "vrfTarget": "1",
+      "switchIp": "1",
+      "port": "1",
+      "ipNetwork": "1",
+      "ipGateway": "1",
+      "ipClient": "1",
+      "ipRoute": "1",
+      "connectionType": "L3"
+    }
+  ],
+  "operators": [
+    {
+      "id": "1",
+      "name": "Оператор 1",
+      "inn": "1234567890"
+    },
+    {
+      "id": "2",
+      "name": "Оператор 2",
+      "inn": "2234567890"
+    },
+    {
+      "id": "84db",
+      "name": "user",
+      "inn": "123123123"
+    }
+  ],
+  "clients": [
+    {
+      "id": "1",
+      "name": "Клиент 1",
+      "inn": "0987654321"
+    },
+    {
+      "id": "2",
+      "name": "Клиент 2",
+      "inn": "1987654321"
+    },
+    {
+      "id": "3",
+      "name": "Клиент 3",
+      "inn": "2987654321"
+    },
+    {
+      "id": "a2ea",
+      "name": "1",
+      "inn": "1"
+    }
+  ]
+}
